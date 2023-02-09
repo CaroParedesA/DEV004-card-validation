@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
   <meta charset="utf-8">
@@ -14,8 +14,9 @@
     <p></p>
   </header>
   <main>
-    <input type="number" id="cardnumber"></input>
-    <button onclick="validate()">Validar</button>
+    <input type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"
+      id="cardnumber">
+    <button id="btnvalid">Validar</button>
     <div id="result"></div>
   </main>
   <footer>
@@ -23,6 +24,7 @@
     <p><a href="mailto:carolina.paredes.arias@gmail.com">carolina.paredes.arias@gmail.com</a></p>
   </footer>
   <script src="index.js" type="module"></script>
+
 </body>
 
 </html>

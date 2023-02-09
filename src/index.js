@@ -1,31 +1,23 @@
 import validator from './validator.js';
-let btnvalid = document.getElementById("btnvalid")
-console.log(btnvalid);
+const btnvalid = document.getElementById("btnvalid");
+let valid = false;
+let mask = "";
 
-function validar() {
-  let valid = false;
-  if (document.getElementById("cardnumber").value.length == 16) {
+function validar(){
+  if (document.getElementById("cardnumber").value.length === 16) {
     valid = validator.isValid(document.getElementById("cardnumber").value);
-    console.log(valid);
+    //console.log(valid);
   } else {
     alert("Ingrese los 16 dígitos de su tarjeta");
   }
   if (valid) {
+    mask = validator.maskify(document.getElementById("cardnumber").value);
+    document.getElementById("cardnumber").value = mask;
+    console.log(mask);
     document.getElementById('result').innerHTML = "succes";
   } else {
     document.getElementById('result').innerHTML = "error";
-    console.log("error");
-    function validator() {
-      document.getElementById("result").innerHTML = "";
-    }
-    var str,
-      element = document.getElementById('btnvalid');
-    if (element != null) {
-      str = element.value;
-    } else {
-      str = null;
-    }
-
+    //console.log("error");
   }
-}
+} 
 btnvalid.addEventListener("click", validar);
