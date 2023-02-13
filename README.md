@@ -1,7 +1,8 @@
 Tarjeta de crédito válida
 
 Nombre de la página: Stickersuperstar
-link git hub pages: https://caroparedesa.github.io/DEV004-card-validation/src/
+
+#link git hub pages: https://caroparedesa.github.io/DEV004-card-validation/src/
 
 Este sitio web está  creado para que el usuario emprendedor o fan de cualquier edad, encuentre el sticker que busca para la ocasión que necesite, en un sitio web amigable y seguro.
 
@@ -12,3 +13,4 @@ El usuario tendrá la tranquilidad de visitar un sitio seguro, gracias a las her
 Si la tarjeta ingresada por el usuario no es una tarjeta correcta o no se están ingresando la cantidad de números correctos, se activará una alerta indicando que debe ingresar los 16 dígitos de su tjta.
 
 Por último, para generar contacto con el administrador del sitio, el usuario  podrá encontrar el correo electrónico dónde podrá hacer sus pedidos o realizar consultas.
+-Fin-
