@@ -1,6 +1,7 @@
 Tarjeta de crédito válida
 
 Nombre de la página: Stickersuperstar
+link git hub pages: https://caroparedesa.github.io/DEV004-card-validation/src/
 
 Este sitio web está  creado para que el usuario emprendedor o fan de cualquier edad, encuentre el sticker que busca para la ocasión que necesite, en un sitio web amigable y seguro.
 
