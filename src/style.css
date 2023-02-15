@@ -48,3 +48,10 @@ body {
 div {
   margin: 1em 1em 1em 0m;
 }
+#cardnumber {
+  width: 500px;
+}
+
+.inputs {
+  width: 500px;
+}
